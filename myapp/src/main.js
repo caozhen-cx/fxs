@@ -26,6 +26,9 @@ Vue.component('myFooter',foorts);
 import foortsTel from '@/components/footer/Footer';
 Vue.component('myFtel',foortsTel);
 // 尾部v联系电话
+import footerAdvertisement from '@/components/footer/Advertisement';
+Vue.component('myAdvertisement',footerAdvertisement);
+// 底部广告
 
 
 Vue.config.productionTip = false

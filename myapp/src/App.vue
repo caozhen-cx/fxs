@@ -1,12 +1,20 @@
 <template>
   <div id="app">
-    <router-view/>
+    <input type="hidden" id="top" />
+    <router-view />
+    <div class="fixed_top" @click="top">
+      <a href="#top"> <i class="icon-top iconfont"></i></a>
+    </div>
   </div>
 </template>
 <script>
-import '@/assets/iconfont/iconfont.css';
+import "@/assets/iconfont/iconfont.css";
 export default {
-}
+  methods: {
+    top() {},
+    // 返回顶部
+  },
+};
 </script>
 <style lang="scss">
 * {

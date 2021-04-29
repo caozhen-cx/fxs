@@ -18,7 +18,6 @@ export default {
   mounted() {
     this.$http("/swiper/swiper.json", "get").then((res) => {
       this.swiper = res.data.data;
-      console.log(res);
     });
   },
   methods: {},

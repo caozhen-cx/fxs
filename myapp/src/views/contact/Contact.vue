@@ -152,8 +152,6 @@ export default {
   width: 2rem;
   height: 2rem;
   margin-left: 2.8rem;
-
-  /* background: red; */
 }
 .Qrcode-img img {
   width: 2rem;
