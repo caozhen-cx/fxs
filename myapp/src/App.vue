@@ -5,8 +5,9 @@
 </template>
 <script>
 import '@/assets/js/remJs.js';
+// rem 配置
+
 export default {
-  
 }
 </script>
 <style lang="scss">

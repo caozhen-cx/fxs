@@ -10,6 +10,10 @@ import 'vant/lib/index.css';
 Vue.use(Vant);
 // 引入vant
 
+import http from '@/http/http.js';
+Vue.prototype.$http = http;
+// 引入 封装的axios
+
 
 Vue.config.productionTip = false
 
