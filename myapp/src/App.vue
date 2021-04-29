@@ -4,9 +4,7 @@
   </div>
 </template>
 <script>
-import '@/assets/Js/remJs.js';
-// rem 配置
-
+import '@/assets/iconfont/iconfont.css';
 export default {
 }
 </script>
@@ -17,5 +15,6 @@ export default {
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
+  font-size: 16px;
 }
 </style>
