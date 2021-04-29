@@ -1,6 +1,6 @@
 <template>
     <div>
-        <swiper />
+        <my-heads />
         <!-- 在这个页面测试组件 -->
     </div>
 </template>

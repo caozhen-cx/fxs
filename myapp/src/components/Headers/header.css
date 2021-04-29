@@ -8,6 +8,7 @@
   left: 0;
   top: 0;
   z-index: 1;
+  background: #fff;
 }
 
 .head img {
@@ -26,4 +27,10 @@
   height: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.head .right span i {
+  margin-bottom: 0.02rem;
 }

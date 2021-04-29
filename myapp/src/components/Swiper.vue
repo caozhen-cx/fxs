@@ -36,6 +36,7 @@ export default {
 .swiper{
     width: 100%;
     height: 4rem;
+    margin-top: 1.5rem;
    img {
         width: 100%;
         height: 100%;
