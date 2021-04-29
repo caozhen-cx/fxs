@@ -11,6 +11,16 @@
   background: #fff;
 }
 
+.head > div {
+  flex: 1;
+}
+
+.head div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .head img {
   height: 100%;
   width: 2rem;
@@ -20,17 +30,18 @@
   width: 2rem;
   height: 100%;
   display: flex;
+  color: #999999;
 }
 
-.head .right span {
+.head .right div {
   flex: 1;
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
-.head .right span i {
+.head .right div i {
   margin-bottom: 0.02rem;
 }

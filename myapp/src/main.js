@@ -20,7 +20,12 @@ Vue.prototype.$http = http;
 import heads from '@/components/Headers/Headers.vue';
 Vue.component('myHeads',heads);
 // 头部组件
-
+import foorts from '@/components/footer/Content';
+Vue.component('myFooter',foorts);
+// 尾部内容组件
+import foortsTel from '@/components/footer/Footer';
+Vue.component('myFtel',foortsTel);
+// 尾部v联系电话
 
 
 Vue.config.productionTip = false
