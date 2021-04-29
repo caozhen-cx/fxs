@@ -3,7 +3,12 @@
     <router-view/>
   </div>
 </template>
-
+<script>
+import '@/assets/js/remJs.js';
+export default {
+  
+}
+</script>
 <style lang="scss">
 * {
   margin: 0;

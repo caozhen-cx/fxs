@@ -1,7 +1,8 @@
 <template>
   <div class="home">
-   卡实践活动克拉生的卡死
+   
   </div>
+  <!-- 主页面 -->
 </template>
 
 <script>

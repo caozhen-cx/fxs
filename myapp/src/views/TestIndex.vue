@@ -1,16 +1,12 @@
 <template>
     <div>
-        
-        <router-view/>
+        <!-- 在这个页面测试组件 -->
     </div>
 </template>
 
 <script>
-
 export default {
-    components:{
-       
-    }
+
 }
 </script>
 
