@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import swiper from "@/components/Swiper";
+import swiper from "@/components/Home/Swiper";
 export default {
   data() {
     return {};

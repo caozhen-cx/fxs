@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <div>
 
     <!-- <my-heads>
@@ -18,13 +19,25 @@
     
     <!-- <my-ftel /> -->
     <!-- 尾部服务热线 -->
+=======
+    <div>
+        <!-- 在这个页面测试组件 -->
+    </div>
+</template>
+>>>>>>> 1e2504bbe94ab74e128fa79253d844e74a1a3ac0
 
     
     
   </div>
 </template>
 <script>
+<<<<<<< HEAD
 export default {
     
+=======
+
+export default {
+  
+>>>>>>> 1e2504bbe94ab74e128fa79253d844e74a1a3ac0
 }
 </script>
