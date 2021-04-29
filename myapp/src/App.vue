@@ -4,7 +4,7 @@
   </div>
 </template>
 <script>
-import '@/assets/js/remJs.js';
+import '@/assets/Js/remJs.js';
 // rem 配置
 
 export default {
