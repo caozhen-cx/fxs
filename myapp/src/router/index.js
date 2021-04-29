@@ -1,8 +1,32 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import index from "@/views/Index/index.js";
-// 主页
+// 主页路由引入
 import contact from "@/views/contact/contact.js";
+//联系我们页面引入
+
+// 装修攻略路由引入
+
+// 装修流程路由引入
+
+// 效果图首页路由引入
+
+// 文章详情页路由引入
+
+// 设计师列表页路由引入
+
+// 工地直播列表路由引入
+
+// 方案列表路由引入
+
+// 十秒报价路由引入
+
+// 装修贷款路由引入
+
+// 评论路由引入
+
+// 关于我们路由引入
+
 
 Vue.use(VueRouter);
 
@@ -12,18 +36,39 @@ const routes = [
     redirect: "/home",
   },
   ...index,
-  ,
   // 主页面路由
   ...contact,
-  ,
   //联系我们页面
-  //
   {
     path: "/test",
     name: "Test",
     component: () => import("../views/TestIndex.vue"),
   },
   // 测试路由
+
+  // 装修攻略路由
+
+  // 装修流程路由
+
+  // 效果图首页路由
+
+  // 文章详情页路由
+
+  // 设计师列表页路由
+
+  // 工地直播列表路由
+
+  // 方案列表路由
+
+  // 十秒报价路由
+
+  // 装修贷款路由
+
+  // 评论路由
+
+  // 关于我们路由
+
+
 ];
 
 const router = new VueRouter({
