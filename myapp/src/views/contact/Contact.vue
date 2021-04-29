@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <div class="top"></div>
+    <my-heads />
     <div class="map">
       <div class="baidumap" id="allmap"></div>
     </div>
