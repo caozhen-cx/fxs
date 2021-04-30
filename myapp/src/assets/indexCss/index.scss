@@ -1,8 +1,5 @@
-#app {
-    background: #fff;
-}
 
-body {
+#app {
     background: #eaeaea;
 }
 
@@ -49,12 +46,14 @@ body {
     padding: 0.36rem 0.2rem;
     text-indent: 2em;
     margin-top: 0.2rem;
+    background: #fff;
 }
 
 // 尾部内容
 
 .footer_tel {
-
+    background: #fff;
+    margin-top: 0.2rem;
     div {
         display: flex;
         align-items: center;

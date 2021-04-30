@@ -1,10 +1,13 @@
 <template>
   <div id="app">
-    <input type="hidden" id="top" />
     <router-view />
+
+
+    <!-- 回到顶部 -->
     <div class="fixed_top" @click="top">
       <a href="#top"> <i class="icon-top iconfont"></i></a>
     </div>
+    <!-- 回到顶部 -->
   </div>
 </template>
 <script>

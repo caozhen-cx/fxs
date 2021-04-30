@@ -1,5 +1,6 @@
 <template>
   <div class="">
+    <!-- 联系我们 -->
     <my-heads />
     <div class="map">
       <div class="baidumap" id="allmap"></div>

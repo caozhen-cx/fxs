@@ -22,7 +22,7 @@
 
         <!-- 在这个页面测试组件 -->
 
-      <my-advertisement />
+      <!-- <my-advertisement /> -->
       <!-- 尾部广告用法 -->
 
     </div>

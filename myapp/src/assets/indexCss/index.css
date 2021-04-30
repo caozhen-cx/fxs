@@ -1,8 +1,4 @@
 #app {
-  background: #fff;
-}
-
-body {
   background: #eaeaea;
 }
 
@@ -50,6 +46,12 @@ body {
   width: 100%;
   padding: 0.36rem 0.2rem;
   text-indent: 2em;
+  margin-top: 0.2rem;
+  background: #fff;
+}
+
+.footer_tel {
+  background: #fff;
   margin-top: 0.2rem;
 }
 

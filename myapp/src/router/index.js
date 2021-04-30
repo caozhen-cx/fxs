@@ -16,15 +16,15 @@ import contact from "@/views/contact/contact.js";
 // 设计师列表页路由引入
 
 // 工地直播列表路由引入
-
+import programme from '@/views/programmeList/programme.js';
 // 方案列表路由引入
-
+import offer from '@/views/Offer/routeroffer.js';
 // 十秒报价路由引入
 
 // 装修贷款路由引入
 
 // 评论路由引入
-
+import about from '@/views/aboutMy/routerabout.js';
 // 关于我们路由引入
 
 
@@ -57,15 +57,15 @@ const routes = [
   // 设计师列表页路由
 
   // 工地直播列表路由
-
+  ...programme,
   // 方案列表路由
-
+  ...offer,
   // 十秒报价路由
 
   // 装修贷款路由
 
   // 评论路由
-
+  ...about
   // 关于我们路由
 
 
