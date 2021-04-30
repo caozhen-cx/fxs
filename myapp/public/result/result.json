@@ -1,0 +1,100 @@
+{
+    "data": [
+        {
+            "id": "1",
+            "img": "/result/1s1t.jpg",
+            "title": "超豪华中式一室一厅",
+            "house": "一室",
+            "style": "中式",
+            "price": "一亿"
+        },
+        {
+            "id": "2",
+            "img": "/result/2s2t.jpg",
+            "title": "超豪华欧式二室二厅",
+            "house": "二室",
+            "style": "欧式",
+            "price": "俩亿"
+        },
+        {
+            "id": "3",
+            "img": "/result/3s3t.jpg",
+            "title": "超豪华现代三室三厅",
+            "house": "三室",
+            "style": "现代",
+            "price": "仨亿"
+        },
+        {
+            "id": "4",
+            "img": "/result/4s4t.jpg",
+            "title": "超豪华轻奢四室四厅",
+            "house": "四室",
+            "style": "轻奢",
+            "price": "四亿"
+        },
+        {
+            "id": "1",
+            "img": "/result/1s1t.jpg",
+            "title": "超豪华中式一室一厅",
+            "house": "一室",
+            "style": "中式",
+            "price": "一亿"
+        },
+        {
+            "id": "2",
+            "img": "/result/2s2t.jpg",
+            "title": "超豪华欧式二室二厅",
+            "house": "二室",
+            "style": "欧式",
+            "price": "俩亿"
+        },
+        {
+            "id": "3",
+            "img": "/result/3s3t.jpg",
+            "title": "超豪华现代三室三厅",
+            "house": "三室",
+            "style": "现代",
+            "price": "仨亿"
+        },
+        {
+            "id": "4",
+            "img": "/result/4s4t.jpg",
+            "title": "超豪华轻奢四室四厅",
+            "house": "四室",
+            "style": "轻奢",
+            "price": "四亿"
+        },
+        {
+            "id": "1",
+            "img": "/result/1s1t.jpg",
+            "title": "超豪华中式一室一厅",
+            "house": "一室",
+            "style": "中式",
+            "price": "一亿"
+        },
+        {
+            "id": "2",
+            "img": "/result/2s2t.jpg",
+            "title": "超豪华欧式二室二厅",
+            "house": "二室",
+            "style": "欧式",
+            "price": "俩亿"
+        },
+        {
+            "id": "3",
+            "img": "/result/3s3t.jpg",
+            "title": "超豪华现代三室三厅",
+            "house": "三室",
+            "style": "现代",
+            "price": "仨亿"
+        },
+        {
+            "id": "4",
+            "img": "/result/4s4t.jpg",
+            "title": "超豪华轻奢四室四厅",
+            "house": "四室",
+            "style": "轻奢",
+            "price": "四亿"
+        }
+    ]
+}
