@@ -2,6 +2,7 @@
   <div class="home">
     <my-heads />
     <swiper />
+    
   </div>
   <!-- 主页面 -->
 </template>

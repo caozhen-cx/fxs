@@ -4,9 +4,9 @@ import index from "@/views/Index/index.js";
 // 主页路由引入
 import contact from "@/views/contact/contact.js";
 //联系我们页面引入
-
+import strategy from "@/views/Strategy/Strategy.js";
 // 装修攻略路由引入
-
+import process from "@/views/Process/process.js"
 // 装修流程路由引入
 
 // 效果图首页路由引入
@@ -14,7 +14,7 @@ import contact from "@/views/contact/contact.js";
 // 文章详情页路由引入
 
 // 设计师列表页路由引入
-
+import broadcast from "@/views/broadcast/broadcast.js"
 // 工地直播列表路由引入
 import programme from '@/views/programmeList/programme.js';
 // 方案列表路由引入
@@ -45,9 +45,9 @@ const routes = [
     component: () => import("../views/TestIndex.vue"),
   },
   // 测试路由
-
+...strategy,
   // 装修攻略路由
-
+...process,
   // 装修流程路由
 
   // 效果图首页路由
@@ -55,7 +55,7 @@ const routes = [
   // 文章详情页路由
 
   // 设计师列表页路由
-
+...broadcast,
   // 工地直播列表路由
   ...programme,
   // 方案列表路由
