@@ -27,6 +27,7 @@ export default {
 <style lang='scss'>
 .my-swipe .van-swipe-item {
   color: #fff;
+   background: #fff;
   font-size: 20px;
   line-height: 150px;
   text-align: center;
@@ -36,6 +37,7 @@ export default {
     width: 100%;
     height: 4rem;
     margin-top: 1.5rem;
+    background: #fff;
    img {
         width: 100%;
         height: 100%;
