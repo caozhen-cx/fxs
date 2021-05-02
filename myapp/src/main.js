@@ -12,17 +12,11 @@ import "vant/lib/index.css";
 Vue.use(Vant);
 // 引入vant
 
-<<<<<<< HEAD
+import myInput from "@/components/input/input.vue";
+Vue.component("myInput", myInput);
+//input 框
+
 import http from "@/http/http.js";
-=======
- import myInput from "@/components/input/input.vue"
- Vue.component("myInput",myInput)
- //input 框
- 
-
-
-import http from '@/http/http.js';
->>>>>>> jing
 Vue.prototype.$http = http;
 // 引入 封装的axios
 
