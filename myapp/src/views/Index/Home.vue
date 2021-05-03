@@ -1,6 +1,11 @@
 <template>
   <div class="home">
-    <my-heads />
+    <my-heads>
+      <template v-slot:headRight>
+        <i class="iconfont icon-user"></i>
+        我的
+      </template>
+    </my-heads>
     <!-- 封装的头部 -->
     <swiper />
     <!--轮播图  -->
@@ -18,6 +23,9 @@
     <!-- 工地直播 -->
     <startegy />
     <!-- 装修攻略 -->
+    <my-footer />
+    <my-ftel />
+    <my-advertisement />
   </div>
   <!-- 主页面 -->
 </template>

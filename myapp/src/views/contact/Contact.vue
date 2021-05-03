@@ -1,7 +1,13 @@
 <template>
   <div class="">
     <!-- 联系我们 -->
-    <my-heads />
+    <my-heads>
+      <template v-slot:headCenter>联系我们 </template>
+      <template v-slot:headRight>
+        <i class="iconfont icon-user"></i>
+        我的
+      </template>
+    </my-heads>
     <div class="map">
       <div class="baidumap" id="allmap"></div>
     </div>
@@ -10,7 +16,6 @@
         <li>
           <div class="icon"><i class="iconfont icon-location"></i></div>
         </li>
-
         <li>
           <div class="icon">
             <i class="iconfont icon-tel"></i>
@@ -36,6 +41,9 @@
         </div>
       </div>
     </div>
+    <my-footer />
+    <my-ftel />
+
   </div>
 </template>
 
@@ -89,7 +97,7 @@ export default {
       map.centerAndZoom(point, 18); // 初始化地图，设置中心点坐标和地图级别
       // //点击图标时候调用信息窗口
       var infoWindow = new BMap.InfoWindow(sContent);
-      marker.addEventListener("click", function() {
+      marker.addEventListener("click", function () {
         this.openInfoWindow(infoWindow);
       });
     },
@@ -98,11 +106,6 @@ export default {
 </script>
 
 <style scoped>
-* {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
 .top {
   width: 100%;
   height: 1rem;
@@ -113,11 +116,12 @@ export default {
 }
 .box {
   width: 100%;
-  height: 3rem;
+  height: 7rem;
 }
 .Sudoku {
   display: flex;
   text-align: center;
+  background: #fff;
 }
 .icon {
   width: 1.5rem;
@@ -136,6 +140,7 @@ export default {
 }
 .word-box {
   display: flex;
+  background: #fff;
 }
 .word-box span {
   margin-left: 0.5rem;

@@ -4,7 +4,7 @@
     <div class="startegy-top">
       <p>装修攻略</p>
     </div>
-    <div class="startegy_img">
+    <div class="startegy_img" @click="$router.push({path:'/programme'})">
       <div class="startegy_img_one">
         <div><img src="/images/08.jpg" alt="" /></div>
         <div>

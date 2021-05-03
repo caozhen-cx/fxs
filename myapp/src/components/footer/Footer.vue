@@ -5,8 +5,8 @@
       <ul>
         <li>触屏版</li>
         <li>电脑版</li>
-        <li>关于我们</li>
-        <li>联系我们</li>
+        <li><a href="#/about">关于我们</a></li>
+        <li @click="$router.push({path:'/contact'})">联系我们</li>
       </ul>
     </div>
     <div>

@@ -37,5 +37,7 @@ input {
   height: 0.7rem;
   font-size: 0.2rem;
    border:0.01rem solid #eaeaea;
+   padding-left: 0.2rem;
 }
+
 </style>

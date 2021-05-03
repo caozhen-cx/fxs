@@ -9,7 +9,7 @@
       <my-input placeholder="小区名" />
       <my-input placeholder="手机号" />
       <my-input placeholder="建筑面积" />
-      <button>立即申请</button>
+      <button @click="click">立即申请</button>
     </div>
   </div>
 </template>
@@ -20,7 +20,11 @@ export default {
     return {};
   },
   mounted() {},
-  methods: {},
+  methods: {
+    click(){
+      
+    }
+  },
 };
 </script>
 
