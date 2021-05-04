@@ -4,7 +4,7 @@
         "reserved":"295",
         "state":"特惠",
         "stateCon":"可选300元/㎡品牌主材包",
-        "image":"/img/case.0b4ba2c0.jpg",
+        "image":"/json/case.jpg",
         "price":"399",
         "content":["厨房","卫生间","阳台","卧室/客房/书房","客厅"]
     },{
@@ -12,7 +12,7 @@
         "reserved":"221",
         "state":"正式发售",
         "stateCon":"全包套餐火爆预约中",
-        "image":"/img/case1.7262dfb2.jpg",
+        "image":"/json/case1.jpg",
         "price":"699",
         "content":["厨房","卫生间","阳台","卧室/客房/书房","客厅"]
     }] 

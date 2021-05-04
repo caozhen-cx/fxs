@@ -32,7 +32,7 @@
         </span>
         <p>装修攻略</p>
       </li>
-      <li>
+      <li @click="$router.push({path:'/decoration'})">
         <span class="sda">
           <i class="iconfont icon-loans"></i>
         </span>

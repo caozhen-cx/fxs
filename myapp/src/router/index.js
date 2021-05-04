@@ -10,7 +10,7 @@ import process from "@/views/Process/process.js"
 // 装修流程路由引入
 import result from '@/views/result/result.js';
 // 效果图首页路由引入
-
+import articledetails from '@/views/articledetails/articleRouter.js';
 // 文章详情页路由引入
 
 // 设计师列表页路由引入
@@ -51,7 +51,7 @@ const routes = [
   // 装修流程路由
   ...result,
   // 效果图首页路由
-
+  ...articledetails,
   // 文章详情页路由
 
   // 设计师列表页路由
