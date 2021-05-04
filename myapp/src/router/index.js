@@ -22,7 +22,7 @@ import offer from '@/views/Offer/routeroffer.js';
 // 十秒报价路由引入
 
 // 装修贷款路由引入
-
+import comment from "@/views/Comment/comment.js"
 // 评论路由引入
 import about from '@/views/aboutMy/routerabout.js';
 // 关于我们路由引入
@@ -63,7 +63,7 @@ const routes = [
   // 十秒报价路由
 
   // 装修贷款路由
-
+   ...comment,
   // 评论路由
   ...about
   // 关于我们路由

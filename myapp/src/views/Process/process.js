@@ -1,8 +1,8 @@
 export default [
-// 流程路由
+    // 流程路由
     {
-        path:'/process',
-        component:()=>import("@/views/Process/process.vue")
+        path: '/process',
+        component: () => import("@/views/Process/process.vue")
     }
-    
-      ];
+
+];
