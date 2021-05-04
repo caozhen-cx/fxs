@@ -1,6 +1,14 @@
 <template>
   <div class="">
-    <my-heads />
+    <my-heads>
+      <template v-slot:headCenter> 
+          效果图
+      </template>
+      <template v-slot:headRight>
+          <i class="iconfont icon-user"></i>
+          我的
+      </template>
+    </my-heads>
     <div class="screen">
       <div>户型<i class="iconfont icon-down down"></i></div>
       <div>区域<i class="iconfont icon-down down"></i></div>

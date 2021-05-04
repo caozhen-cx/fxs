@@ -2,13 +2,13 @@
       
   <div class="icont">
     <ul>
-      <li>
+      <li @click="$router.push({path:'/programme'})">
         <span class="sda">
           <i class="iconfont icon-case"></i>
         </span>
         <p>装修方案</p>
       </li>
-      <li>
+      <li @click="$router.push({path:'/result'})">
         <span class="sda">
           <i class="iconfont icon-pics"></i>
         </span>
@@ -20,19 +20,19 @@
         </span>
         <p>设计师</p>
       </li>
-      <li>
+      <li @click="$router.push({path:'/broadcast'})">
         <span class="sda">
           <i class="iconfont icon-construction-site"></i>
         </span>
         <p>装修工地</p>
       </li>
-      <li>
+      <li @click="$router.push({path:'/strategy'})">
         <span class="sda">
           <i class="iconfont icon-decorate"></i>
         </span>
         <p>装修攻略</p>
       </li>
-      <li>
+      <li @click="$router.push({path:'/decoration'})">
         <span class="sda">
           <i class="iconfont icon-loans"></i>
         </span>
@@ -44,7 +44,7 @@
         </span>
         <p>免费预约</p>
       </li>
-      <li>
+      <li @click="$router.push({path:'/offer'})">
         <span class="sda">
           <i class="iconfont icon-ten"></i>
         </span>

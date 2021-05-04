@@ -1,6 +1,10 @@
 <template>
   <div>
-    <my-heads />
+  <my-heads>
+      <template v-slot:headCenter> 
+          欧美文化的抽象美感
+      </template>
+    </my-heads>
 
     <div class="box">
       <img :src="id.img" alt="" />
