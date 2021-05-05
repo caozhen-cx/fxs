@@ -1,12 +1,12 @@
 export default [
   {
     path: "/broadcast",
-    component: () => import("@/views/broadcast/Broadcast.vue"),
+    component: () => import("./Broadcast.vue"),
     // 工地直播
   },
   {
     path: "/broadcastDetails",
-    component: () => import("@/views/broadcast/BroadcastDetails.vue"),
+    component: () => import("./BroadcastDetails.vue"),
     // 工地直播详情
   },
 ];
