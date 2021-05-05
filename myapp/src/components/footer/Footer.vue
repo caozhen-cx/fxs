@@ -3,7 +3,7 @@
     <div><i class="iconfont icon-hot-line"></i>服务热线：400-9977-658</div>
     <div>
       <ul>
-        <li>触屏版</li>
+        <li @click="$router.push({path:'/'})">触屏版</li>
         <li>电脑版</li>
         <li><a href="#/about">关于我们</a></li>
         <li @click="$router.push({path:'/contact'})">联系我们</li>

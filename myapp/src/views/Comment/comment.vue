@@ -1,66 +1,75 @@
 <template>
-  <div class="">
+  <div class="comment">
     <!-- 引入头部 -->
-    <my-heads>业主评价</my-heads>
+    <my-heads>
+      <template v-slot:headCenter> 
+          业主评价
+      </template>
+    </my-heads>
     <!-- 评论 -->
-    <div id="comment">
-      <div>
-        <p>
-          <span><i class="iconfont icon-user"></i> </span>
-          <span>*xff</span>
-          <span>2016-10-6</span>
-          <span>这篇文章很实用，正在装修，刚好可以用来参考一下。</span>
-        </p>
+    <div class="box">
+      <div id="comment">
+        <div>
+          <p>
+            <span><i class="iconfont icon-user"></i> </span>
+            <span>*xff</span>
+            <span>2016-10-6</span>
+            <span>这篇文章很实用，正在装修，刚好可以用来参考一下。</span>
+          </p>
+        </div>
+        <div>
+          <p>
+            <span><i class="iconfont icon-user"></i> </span>
+            <span>*xff</span>
+            <span>2016-10-6</span>
+            <span>这篇文章很实用，正在装修，刚好可以用来参考一下。</span>
+          </p>
+        </div>
+        <div>
+          <p>
+            <span><i class="iconfont icon-user"></i> </span>
+            <span>*xff</span>
+            <span>2016-10-6</span>
+            <span>这篇文章很实用，正在装修，刚好可以用来参考一下。</span>
+          </p>
+        </div>
+        <div>
+          <p>
+            <span><i class="iconfont icon-user"></i> </span>
+            <span>*xff</span>
+            <span>2016-10-6</span>
+            <span>这篇文章很实用，正在装修，刚好可以用来参考一下。</span>
+          </p>
+        </div>
+        <div>
+          <p>
+            <span><i class="iconfont icon-user"></i> </span>
+            <span>*xff</span>
+            <span>2016-10-6</span>
+            <span>这篇文章很实用，正在装修，刚好可以用来参考一下。</span>
+          </p>
+        </div>
+        <div>
+          <p>
+            <span><i class="iconfont icon-user"></i> </span>
+            <span>*xff</span>
+            <span>2016-10-6</span>
+            <span>这篇文章很实用，正在装修，刚好可以用来参考一下。</span>
+          </p>
+        </div>
       </div>
-      <div>
-        <p>
-          <span><i class="iconfont icon-user"></i> </span>
-          <span>*xff</span>
-          <span>2016-10-6</span>
-          <span>这篇文章很实用，正在装修，刚好可以用来参考一下。</span>
-        </p>
+      <div class="msg">
+        <div>上一页</div>
+        <div>2/30</div>
+        <div>下一页</div>
       </div>
-      <div>
-        <p>
-          <span><i class="iconfont icon-user"></i> </span>
-          <span>*xff</span>
-          <span>2016-10-6</span>
-          <span>这篇文章很实用，正在装修，刚好可以用来参考一下。</span>
-        </p>
-      </div>
-      <div>
-        <p>
-          <span><i class="iconfont icon-user"></i> </span>
-          <span>*xff</span>
-          <span>2016-10-6</span>
-          <span>这篇文章很实用，正在装修，刚好可以用来参考一下。</span>
-        </p>
-      </div>
-      <div>
-        <p>
-          <span><i class="iconfont icon-user"></i> </span>
-          <span>*xff</span>
-          <span>2016-10-6</span>
-          <span>这篇文章很实用，正在装修，刚好可以用来参考一下。</span>
-        </p>
-      </div>
-      <div>
-        <p>
-          <span><i class="iconfont icon-user"></i> </span>
-          <span>*xff</span>
-          <span>2016-10-6</span>
-          <span>这篇文章很实用，正在装修，刚好可以用来参考一下。</span>
-        </p>
+      <div class="write">
+        <i class="iconfont icon-pencle"></i>
       </div>
     </div>
-    <div class="msg">
-      <div>上一页</div>
-      <div>2/30</div>
-      <div>下一页</div>
-    </div>
-    <div class="write">
-           <i class="iconfont icon-pencle"></i>
-    </div>
+
+    <my-footer /> 
+     <my-ftel />
   </div>
 </template>
 
@@ -386,20 +395,26 @@ export default {
     color: white;
   }
 }
-.write{
-    position: fixed;
-    width: 1rem;
-    height: 1rem;
-    background: #1b9af7;
-    right: 0.2rem;
-    bottom: 3.5rem;
-    border-radius: 50%;
-    color:white;
-    border: 1px solid #eee;
-    text-align: center;
-    line-height: 1rem;
-   i{
-       font-size: 0.5rem;
-   }
+.write {
+  position: fixed;
+  width: 1rem;
+  height: 1rem;
+  background: #1b9af7;
+  right: 0.2rem;
+  bottom: 3.5rem;
+  border-radius: 50%;
+  color: white;
+  border: 1px solid #eee;
+  text-align: center;
+  line-height: 1rem;
+  i {
+    font-size: 0.5rem;
+  }
+}
+.box {
+  height: 17.4rem;
+}
+.comment>div {
+  background: #fff;
 }
 </style>
