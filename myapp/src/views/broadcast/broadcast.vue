@@ -1,23 +1,18 @@
 <template>
-    <div>
+      
+  <div>
     <naves></naves>
-</div>
+  </div>
 </template>
 
 <script>
-import naves from "@/components/Broadcast/nav.vue"
-export default {
-    data() {
-        return {};
-    },
-    mounted() {},
-    methods: {},
-components:{
-naves
-}
+import naves from "@/components/Broadcast/nav.vue";
+export default {
+  components: {
+    naves,
+  },
 };
 </script>
 
 <style lang="scss" scoped>
-
 </style>

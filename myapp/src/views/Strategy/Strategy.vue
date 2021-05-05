@@ -16,11 +16,6 @@ import inputs from '@/components/Strategils/Input.vue'
 import navs from '@/components/Strategils/Nav.vue'
 import bodys from '@/components/Strategils/body.vue'
 export default {
-    data() {
-        return {};
-    },
-    mounted() {},
-    methods: {},
 components:{
     heads,
     inputs,

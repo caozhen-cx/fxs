@@ -1,6 +1,5 @@
 <template>
   <div>
-
     <!-- <my-heads>
       <template v-slot:headCenter> 
           装修流程

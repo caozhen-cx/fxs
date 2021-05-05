@@ -1,11 +1,9 @@
 <template>
   <div id="app">
     <router-view />
-
-
     <!-- 回到顶部 -->
     <div class="fixed_top" @click="top">
-      <a href="#top"> <i class="icon-top iconfont"></i></a>
+      <a> <i class="icon-top iconfont"></i></a>
     </div>
     <!-- 回到顶部 -->
   </div>
@@ -14,7 +12,9 @@
 import "@/assets/iconfont/iconfont.css";
 export default {
   methods: {
-    top() {},
+    top() {
+      document.documentElement.scrollTop = 0;
+    },
     // 返回顶部
   },
 };

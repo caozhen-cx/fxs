@@ -14,7 +14,7 @@
         <div><i class="iconfont icon-nav" @click="flag = !flag"></i>导航</div>
       </div>
     </div>
-    <div class="head_nav"  v-show="flag">
+    <div class="head_nav" v-show="flag">
       <div class="icont">
         <ul>
           <li @click="$router.push({ path: '/programme' })">
@@ -68,9 +68,7 @@
         </ul>
       </div>
     </div>
-    <div class="mask" @click="flag = false" v-show="flag">
-
-    </div>
+    <div class="mask" @click="flag = false" v-show="flag"></div>
   </div>
 </template>
 
@@ -184,5 +182,6 @@ export default {
   top: 0;
   width: 100%;
   height: 100%;
+  z-index: 1;
 }
 </style>
