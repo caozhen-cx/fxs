@@ -1,12 +1,12 @@
 <template>
   <div class="">
     <my-heads>
-      <template v-slot:headCenter> 
-          效果图
+      <template v-slot:headCenter>
+        效果图
       </template>
       <template v-slot:headRight>
-          <i class="iconfont icon-user"></i>
-          我的
+        <i class="iconfont icon-user"></i>
+        我的
       </template>
     </my-heads>
     <div class="screen">
@@ -68,6 +68,8 @@ export default {
   margin-top: 1.5rem;
   display: flex;
   height: 1rem;
+  border: 0.01rem solid #eaeaea;
+  background: rgb(255, 255, 255);
 }
 .screen div {
   width: 2.5rem;
