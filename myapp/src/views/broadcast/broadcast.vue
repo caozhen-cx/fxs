@@ -1,5 +1,4 @@
 <template>
-      
   <div>
     <naves></naves>
   </div>
@@ -13,6 +12,3 @@ export default {
   },
 };
 </script>
-
-<style lang="scss" scoped>
-</style>
