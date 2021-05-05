@@ -1,7 +1,7 @@
 export default [
   {
     path: "/broadcast",
-    component: () => import("./Broadcast.vue"),
+    component: () => import("./broadcast.vue"),
     // 工地直播
   },
   {
