@@ -27,7 +27,13 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
+*{
+    background-color: #fff !important;
+}
 ul{
+       border-top: 1px solid #ccc;
+    margin-top: 1.5rem;
+    border-bottom: 1px solid #ccc;
     width: 100%;
     display: flex;
     justify-content: space-around;

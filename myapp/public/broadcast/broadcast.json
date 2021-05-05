@@ -1,0 +1,88 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "img": "/broadcast/1.png",
+            "title": "戈雅公寓24栋",
+            "timer": "泥木工程",
+            "num": "10km"
+        },
+        {
+            "id": 2,
+            "img": "/broadcast/1.png",
+            "title": "观澜时代国际花园云邸5栋",
+            "timer": "泥木工程",
+            "num": "20km"
+        },
+        {
+            "id": 3,
+            "img": "/broadcast/1.png",
+            "title": "中泰阳光城5栋",
+            "timer": "泥木工程",
+            "num": "10Km"
+        },
+        {
+            "id": 4,
+            "img": "/broadcast/1.png",
+            "title": "重汽嘉泽苑7栋",
+            "timer": "泥木工程",
+            "num": "20km"
+        },
+        {
+            "id": 5,
+            "img": "/broadcast/1.png",
+            "title": "戈雅公寓24栋",
+            "timer": "泥木工程",
+            "num": "10km"
+        },
+        {
+            "id": 6,
+            "img": "/broadcast/1.png",
+            "title": "观澜时代国际花园云邸5栋",
+            "timer": "泥木工程",
+            "num": "20km"
+        },
+        {
+            "id": 7,
+            "img": "/broadcast/1.png",
+            "title": "中泰阳光城5栋",
+            "timer": "泥木工程",
+            "num": "10km"
+        },
+        {
+            "id": 8,
+            "img": "/broadcast/1.png",
+            "title": "重汽嘉泽苑7栋",
+            "timer": "泥木工程",
+            "num": "20km"
+        },
+        {
+            "id": 9,
+            "img": "/broadcast/1.png",
+            "title": "戈雅公寓24栋",
+            "timer": "泥木工程",
+            "num": "10km"
+        },
+        {
+            "id": 10,
+            "img": "/broadcast/1.png",
+            "title": "观澜时代国际花园云邸5栋",
+            "timer": "泥木工程",
+            "num": "20km"
+        },
+        {
+            "id": 11,
+            "img": "/broadcast/1.png",
+            "title": "中泰阳光城5栋",
+            "timer": "泥木工程",
+            "num": "10km"
+        },
+        {
+            "id": 12,
+            "img": "/broadcast/1.png",
+            "title": "重汽嘉泽苑7栋",
+            "timer": "泥木工程",
+            "num": "20km"
+        }
+    ]
+}

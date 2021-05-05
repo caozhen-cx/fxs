@@ -12,7 +12,7 @@
 <span class="timer">
     <i class="iconfont icon-time"></i>
     {{item.timer}}
-</span>
+</span> 
 <span class="num">
 <i class="iconfont icon-view"></i>
 {{item.num}}
@@ -22,7 +22,6 @@
     </li>
 </ul>
 <button class="new">
-  
      换一批
        <i class="iconfont icon-change"></i>
 </button>
