@@ -63,7 +63,7 @@ export default {
 };
 </script>
 
-<style scope>
+<style scoped>
 .screen {
   margin-top: 1.5rem;
   display: flex;
